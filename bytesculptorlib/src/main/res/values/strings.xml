@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppRating -->
+    <string name="szRateDialogTitle">Rate this app</string>
+    <string name="szRatingMessage">If you enjoy this app, please take a moment to rate it. Thanks for your support!</string>
+    <string name="szRateNow">Rate now</string>
+    <string name="szRemindLater">Remind me</string>
+    <string name="szNoThanks">No, thanks</string>
+
+</resources>
