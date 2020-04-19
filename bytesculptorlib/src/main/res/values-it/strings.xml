@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="szSettings">Impostazioni</string>
+    <string name="szYes">si</string>
+    <string name="szNo">no</string>
+    <string name="szGood">buono</string>
+    <string name="szNotifications">Notificazioni</string>
+    <string name="szRateThisApp">Valuta questa app</string>
+    <string name="szAbout">Informazioni</string>
+    <string name="szContact">Contatto</string>
+    <string name="szAppVersion">Versione</string>
+    <string name="szFeedback">Invia feedback</string>
+    <string name="szNoThanks">No, grazie</string>
+    <string name="szHint">Suggerimento</string>
+    <string name="szHistory">Svolgimento</string>
+    <string name="szNoCancel">No, annulla</string>
+    <string name="szClose">chiudere</string>
+    <string name="szRatingMessage">Se vi piace questa app, vi preghiamo di prendere un momento per valutarla. Grazie per il vostro sostegno!</string>
+    <string name="szIntroduction">Introduzione</string>
+    <string name="szRemindMe">Ricordami</string>
+    <string name="szRateNow">Valuta adesso</string>
+    <string name="szHelp">Aiuto</string>
+    <string name="szOn">acceso</string>
+    <string name="szOff">spento</string>
+    <string name="szShowMe">Fammi vedere</string>
+</resources>

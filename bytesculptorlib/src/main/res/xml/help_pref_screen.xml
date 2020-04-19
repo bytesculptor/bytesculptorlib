@@ -1,0 +1,44 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory>
+
+        <Preference
+            app:icon="@drawable/ic_help"
+            app:key="HELP_PREF_MANUAL"
+            app:title="@string/szHelp" />
+
+        <Preference
+            app:icon="@drawable/ic_email"
+            app:key="HELP_PREF_SEND_FEEDBACK"
+            app:title="@string/szFeedback" />
+
+        <Preference
+            app:icon="@drawable/ic_rate_review"
+            app:key="HELP_PREF_RATE_APP"
+            app:title="@string/szRateThisApp" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/szAbout">
+
+        <Preference
+            app:key="HELP_PREF_APP_VERSION"
+            app:title="@string/szAppVersion"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            android:title="@string/open_source_licenses"
+            app:key="HELP_PREF_OPEN_SOURCE" />
+
+        <Preference
+            android:title="Privacy Policy"
+            app:key="HELP_PREF_PRIVACY_POLICY" />
+
+        <Preference
+            app:icon="@drawable/ic_android"
+            app:key="HELP_PREF_MORE_APPS"
+            app:title="@string/szMoreApps" />
+
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>
