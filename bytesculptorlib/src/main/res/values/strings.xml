@@ -1,10 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- General terms -->
+    <string name="szSettings">Settings</string>
+    <string name="szClose">close</string>
+    <string name="szCancel">Cancel</string>
+    <string name="szAbort">abort</string>
+    <string name="szSave">Save</string>
+    <string name="szSaved">Saved</string>
+    <string name="szEdit">edit</string>
+    <string name="szPlay">Play</string>
+    <string name="szRename">rename</string>
+    <string name="szCreate">Create</string>
+    <string name="szDelete">delete</string>
+    <string name="szDeleted">deleted</string>
+    <string name="szShowMe">Show me</string>
+    <string name="szOk">OK</string>
+    <string name="szStatistics">Statistics</string>
+    <string name="szInfo">info</string>
+    <string name="szSearch">Search</string>
+    <string name="szHint">hint</string>
+    <string name="btLater">later</string>
+    <string name="btNext">next</string>
+    <string name="szAll">all</string>
+    <string name="szFileName">file name</string>
+    <string name="szOpenFile">open file</string>
+    <string name="szSaveFile">save file</string>
+    <string name="szImp">import</string>
+    <string name="szExp">export</string>
+    <string name="szNotifications">Notifications</string>
+
+    <string name="szYes">yes</string>
+    <string name="szNo">no</string>
+    <string name="szDeleteAllData">Yes, delete all data</string>
+    <string name="szNoCancel">No, cancel</string>
+    <string name="szOff">off</string>
+    <string name="szOn">on</string>
+    <string name="szGood" translatable="false">good</string>
+    <string name="szGotIt">Got it!</string>
+    <string name="szWelcome">Welcome!</string>
+    <string name="szMerge">Merge</string>
+
+    <string name="szSort">sort</string>
+    <string name="AZ" translatable="false">A..Z</string>
+    <string name="ZA" translatable="false">Z..A</string>
+
+    <string name="szHistory">History</string>
+    <string name="szOneWeek">1 week</string>
+    <string name="szToday">today</string>
+    <string name="szOneMonth">1 month</string>
+    <string name="szThreeMonth">3 month</string>
+    <string name="szSixMonth">6 month</string>
+    <string name="szOneYear">1 year</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open" translatable="false">open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">close navigation drawer</string>
+
+    <string name="szTts">Text-to-speech</string>
+    <string name="btTtsOptions">Text-to-speech settings</string>
+
+
     <!-- AppRating -->
-    <string name="szRateDialogTitle">Rate this app</string>
+    <string name="szRateThisApp">Rate this app</string>
     <string name="szRatingMessage">If you enjoy this app, please take a moment to rate it. Thanks for your support!</string>
     <string name="szRateNow">Rate now</string>
-    <string name="szRemindLater">Remind me</string>
+    <string name="szRemindMe">Remind me</string>
     <string name="szNoThanks">No, thanks</string>
+
+
+    <!-- Help -->
+    <string name="szHelp">Help</string>
+    <string name="szIntroduction">Introduction</string>
+    <string name="szAbout">About</string>
+    <string name="szFeedback">Send feedback</string>
+    <string name="szAppVersion">App Version</string>
+    <string name="szMoreApps">Byte Sculptor Apps</string>
+    <string name="szContact">Contact</string>
+    <string name="szFaq">FAQ</string>
+    <string name="open_source_licenses" translatable="false">Open source licenses</string>
+
+
+    <!-- Licenses -->
+    <string name="szLicensesHeader" translatable="false">This app currently uses the following open source software:</string>
+    <string name="szHeaderLic1" translatable="false">Material design icons</string>
+    <string name="szCopyRightLic1" translatable="false">Copyright 2016 Google</string>
+    <string name="szHeaderLic2" translatable="false">MPAndroidChart</string>
+    <string name="szCopyRightLic2" translatable="false">Copyright 2015 Philipp Jahoda</string>
+
+    <string name="szTextLic1" translatable="false">Licensed under the Apache License, Version 2.0 (the "License");
+        \nyou may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+        \n\n\t\t
+        http://www.apache.org/licenses/LICENSE-2.0
+        \n\nUnless required by applicable law or agreed to in writing, software distributed under the
+        License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and limitations under the License.
+    </string>
+    <string name="szTextLic2" translatable="false" />
+
 
 </resources>

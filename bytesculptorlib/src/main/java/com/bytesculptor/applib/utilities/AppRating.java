@@ -1,4 +1,4 @@
-package com.bytesculptor.androidlib.utilities;
+package com.bytesculptor.applib.utilities;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -12,7 +12,7 @@ import android.os.Bundle;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.FragmentManager;
 
-import com.bytesculptor.androidlib.R;
+import com.bytesculptor.applib.R;
 
 import java.util.Objects;
 
@@ -60,7 +60,7 @@ public class AppRating {
 
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
-            builder.setTitle(getString(R.string.szRateDialogTitle));
+            builder.setTitle(getString(R.string.szRateThisApp));
             builder.setMessage(getString(R.string.szRatingMessage));
 
             builder.setPositiveButton(getString(R.string.szRateNow), (dialog, which) -> {
@@ -90,7 +90,7 @@ public class AppRating {
                 }
             });
 
-            builder.setNeutralButton(getString(R.string.szRemindLater), (dialog, which) -> {
+            builder.setNeutralButton(getString(R.string.szRemindMe), (dialog, which) -> {
                 if (sEditor != null) {
                     sEditor.putLong(FIRST_LAUNCH, 0);
                     sEditor.putLong(COUNTER, 0);

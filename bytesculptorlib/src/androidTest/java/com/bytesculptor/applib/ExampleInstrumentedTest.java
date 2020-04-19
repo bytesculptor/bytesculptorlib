@@ -1,4 +1,4 @@
-package com.bytesculptor.androidlib;
+package com.bytesculptor.applib;
 
 import android.content.Context;
 
