@@ -1,6 +1,5 @@
 package com.bytesculptor.applib.utilities;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -9,6 +8,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.FragmentManager;
 
@@ -19,7 +19,7 @@ import java.util.Objects;
 public class AppRating {
 
     private final static int DAYS_UNTIL_PROMPT = 3;
-    private final static int LAUNCHES_UNTIL_PROMPT = 3;
+    private final static int LAUNCHES_UNTIL_PROMPT = 5;
 
     private static final String NEVER_ASK = "never_ask";
     private static final String COUNTER = "launch_counter";
@@ -64,6 +64,11 @@ public class AppRating {
             builder.setMessage(getString(R.string.szRatingMessage));
 
             builder.setPositiveButton(getString(R.string.szRateNow), (dialog, which) -> {
+                if (sEditor != null) {
+                    sEditor.putBoolean(NEVER_ASK, true);
+                    sEditor.apply();
+                }
+
                 Uri uri = Uri.parse("market://details?id=" + Objects.requireNonNull(getContext()).getPackageName());
                 Intent goToAppStore = new Intent(Intent.ACTION_VIEW, uri);
                 goToAppStore.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
@@ -75,11 +80,6 @@ public class AppRating {
                         ActivityNotFoundException e) {
                     startActivity(new Intent(Intent.ACTION_VIEW,
                             Uri.parse("http://play.google.com/store/apps/details?id=" + getContext().getPackageName())));
-                }
-
-                if (sEditor != null) {
-                    sEditor.putBoolean(NEVER_ASK, true);
-                    sEditor.apply();
                 }
             });
 
