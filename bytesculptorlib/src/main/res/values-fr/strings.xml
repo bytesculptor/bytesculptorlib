@@ -5,7 +5,7 @@
     <string name="szNo">non</string>
     <string name="szGood">bon</string>
     <string name="szNotifications">Notifications</string>
-    <string name="szRateThisApp">Évaluer l\'application</string>
+    <string name="szRateThisApp">Noter l\'application</string>
     <string name="szAbout">À propos</string>
     <string name="szContact">Contact</string>
     <string name="szAppVersion">Version</string>
@@ -17,7 +17,7 @@
     <string name="szRatingMessage">Si vous aimez cette application, veuillez prendre un moment pour la noter. Merci pour votre aide!</string>
     <string name="szIntroduction">Introduction</string>
     <string name="szRemindMe">Rappelle moi</string>
-    <string name="szRateNow">Évalue maintenant</string>
+    <string name="szRateNow">Noter</string>
     <string name="szHelp">Aide</string>
     <string name="szOff">éteint</string>
     <string name="szOn">allumé</string>
