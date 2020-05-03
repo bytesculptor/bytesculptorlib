@@ -1,6 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY license_apache "Licensed under the Apache License, Version 2.0 (the License)
+    \nyou may not use this file except in compliance with the License. You may obtain a copy of
+    the License at
+    \n\n\t\thttp://www.apache.org/licenses/LICENSE-2.0 \n\nUnless required by applicable law or
+    agreed to in writing, software distributed under the License is distributed on an AS IS BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for
+    the specific language governing permissions and limitations under the License." >]>
 <resources>
+
     <!-- general terms -->
+    <string name="dev_email" translatable="false">bytesculptor@gmail.com</string>
     <string name="szSettings">Settings</string>
     <string name="szNotifications">Notifications</string>
     <string name="szStatistics" translatable="false">Statistics</string>
@@ -86,6 +94,17 @@
     <string name="szFaq" translatable="false">FAQ</string>
     <string name="open_source_licenses" translatable="false">Open source licenses</string>
 
+    <string name="szDisclaimer1"></string>
+    <string name="szDisclaimer2">Byte Sculptor Software owns the rights to this application and changes could be made at any time.
+        This app has been tested manually and automated on real and emulated devices for bugs, errors and stability. However,
+        this does not mean that the software is completely free from any error. The Android OS is used on many different devices
+        and partly heavily modified by the device manufacturer so it is possible that this app does not run properly on some devices.
+        \n\nBy using this software you agree that Byte Sculptor Software is not responsible for any damage done to your device. You use this app
+        completely at your own risk.
+        \nIf you encounter any problems please let us know by sending an email with details about what does not work, your device model and Android version.
+    </string>
+    <string name="szDisclaimer3"></string>
+
 
     <!-- licenses -->
     <string name="szLicensesHeader" translatable="false">This app currently uses the following open source software:</string>
@@ -93,22 +112,15 @@
     <string name="szCopyRightLic1" translatable="false">Copyright 2016 Google</string>
     <string name="szHeaderLic2" translatable="false">MPAndroidChart</string>
     <string name="szCopyRightLic2" translatable="false">Copyright 2015 Philipp Jahoda</string>
-
-    <string name="szTextLic1" translatable="false">Licensed under the Apache License, Version 2.0 (the "License");
-        \nyou may not use this file except in compliance with the License.
-        You may obtain a copy of the License at
-        \n\n\t\t
-        http://www.apache.org/licenses/LICENSE-2.0
-        \n\nUnless required by applicable law or agreed to in writing, software distributed under the
-        License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-        See the License for the specific language governing permissions and limitations under the License.
-    </string>
-    <string name="szTextLic2" translatable="false" />
+    <string name="szTextLic1" translatable="false">&license_apache;</string>
+    <string name="szTextLic2" translatable="false">&license_apache;</string>
 
 
     <!-- navigation drawer -->
     <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="navigation_drawer_open" translatable="false">open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">close navigation drawer</string>
+    <string name="errorOnOpenPrivacyPolicyLink">Error. Check the app store for the privacy policy.</string>
+
 
 </resources>

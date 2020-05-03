@@ -28,12 +28,16 @@
             app:useSimpleSummaryProvider="true" />
 
         <Preference
-            android:title="@string/open_source_licenses"
-            app:key="HELP_PREF_OPEN_SOURCE" />
+            app:key="HELP_PREF_DISCLAIMER"
+            app:title="Disclaimer" />
 
         <Preference
-            android:title="Privacy Policy"
-            app:key="HELP_PREF_PRIVACY_POLICY" />
+            app:key="HELP_PREF_OPEN_SOURCE"
+            app:title="@string/open_source_licenses" />
+
+        <Preference
+            app:key="HELP_PREF_PRIVACY_POLICY"
+            app:title="Privacy Policy" />
 
         <Preference
             app:icon="@drawable/ic_android"
