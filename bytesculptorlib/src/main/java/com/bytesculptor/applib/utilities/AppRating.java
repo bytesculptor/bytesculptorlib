@@ -122,7 +122,7 @@ public class AppRating {
         public Dialog onCreateDialog(Bundle savedInstanceState) {
 
             AlertDialog.Builder builder = new AlertDialog.Builder(requireActivity());
-            builder.setTitle(getString(R.string.szFeedback));
+            builder.setTitle(getString(R.string.szFeedback) + "?");
             builder.setMessage(getString(R.string.szAskFeedbackMessage));
 
             builder.setPositiveButton(getString(R.string.szYes), (dialog, which) -> {

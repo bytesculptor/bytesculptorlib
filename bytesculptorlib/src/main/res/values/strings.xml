@@ -91,7 +91,7 @@
     <string name="szHelp">Help</string>
     <string name="szIntroduction">Introduction</string>
     <string name="szAbout">About</string>
-    <string name="szFeedback">Send feedback?</string>
+    <string name="szFeedback">Send feedback</string>
     <string name="szAppVersion">App Version</string>
     <string name="szMoreApps" translatable="false">Byte Sculptor Apps</string>
     <string name="szContact">Contact</string>
