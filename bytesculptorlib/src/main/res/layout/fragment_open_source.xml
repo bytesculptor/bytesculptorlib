@@ -18,6 +18,7 @@
             android:layout_marginBottom="24dp"
             android:paddingTop="4dp"
             android:text="@string/szLicensesHeader"
+            android:textIsSelectable="true"
             android:textSize="18sp" />
 
         <TextView
@@ -48,6 +49,7 @@
             android:layout_marginBottom="32dp"
             android:paddingBottom="8dp"
             android:text="@string/szTextLic1"
+            android:textIsSelectable="true"
             android:textSize="14sp"
             android:visibility="visible" />
 
@@ -77,6 +79,7 @@
             android:layout_marginBottom="32dp"
             android:paddingBottom="8dp"
             android:text="@string/szTextLic2"
+            android:textIsSelectable="true"
             android:textSize="14sp" />
 
     </LinearLayout>

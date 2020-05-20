@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="8dp"
             android:text="@string/szDisclaimer1"
+            android:textIsSelectable="true"
             android:textSize="18sp" />
 
         <TextView
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="8dp"
             android:text="@string/szDisclaimer2"
+            android:textIsSelectable="true"
             android:textSize="18sp" />
 
         <TextView
@@ -33,6 +35,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="8dp"
             android:text="@string/szDisclaimer3"
+            android:textIsSelectable="true"
             android:textSize="18sp" />
 
 
