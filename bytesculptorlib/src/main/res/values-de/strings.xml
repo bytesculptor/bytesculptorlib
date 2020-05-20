@@ -18,9 +18,25 @@
     <string name="szOff">aus</string>
     <string name="szOn">ein</string>
     <string name="szClose">schließen</string>
-    <string name="szRatingMessage">Wenn Ihnen diese App gefällt, haben Sie bitte einen Moment Zeit, um sie zu bewerten? Danke für Ihre Unterstützung!</string>
     <string name="szRateNow">Bewerten</string>
     <string name="szRemindMe">Erinnere mich</string>
     <string name="szIntroduction">Einführung</string>
     <string name="szShowMe">Zeige mir</string>
+
+    <string name="szLikeThisAppTitle">Gefällt Ihnen diese App?</string>
+    <string name="szLikeThisAppMessage">Wie ist Ihre bisherige Erfahrung? Mögen Sie diese App?</string>
+    <string name="szRatingMessage">Haben Sie einen Moment Zeit, um die App zu bewerten? Danke für Ihre Unterstützung!</string>
+    <string name="szAskFeedbackMessage">Es tut uns leid dies zu hören. Möchten Sie eine Rückmeldung senden, damit wir die App verbessern können?</string>
+    <string name="szLikeThisAppNo">Nicht so</string>
+    <string name="szDisclaimer2">Byte Sculptor Software besitzt die Rechte an dieser Software und Änderungen können
+        jederzeit vorgenommen werden. Diese App wurde manuell und automatisch auf realen und emulierten Geräten auf Bugs,
+        Fehler und Stabilität getestet. Dies bedeutet jedoch nicht, dass die Software völlig fehlerfrei ist. Das
+        Android-Betriebssystem wird auf vielen Geräten verwendet und häufig von Smartphone-Herstellern
+        stark modifiziert. Es ist möglich, dass diese App auf solchen Geräten nicht wie erwartet funktioniert.
+
+        \n\nDurch die Verwendung dieser Software erklären Sie sich damit einverstanden, dass Byte Sculptor Software
+        nicht für Schäden an Ihrem Gerät verantwortlich ist. Sie nutzen diese App vollständig auf eigenes Risiko.         
+        \nWenn Sie auf Probleme stoßen, senden Sie uns bitte eine E-Mail mit Details zum Problem, Ihrem Gerätemodell und der Android-Version. Vielen Dank!</string>
+    <string name="errorOnOpenPrivacyPolicyLink">Fehler. Besuchen Sie den App Store für die Datenschutzerklärung.</string>
+
 </resources>

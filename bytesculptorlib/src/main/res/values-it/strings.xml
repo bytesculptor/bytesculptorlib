@@ -15,7 +15,6 @@
     <string name="szHistory">Svolgimento</string>
     <string name="szNoCancel">No, annulla</string>
     <string name="szClose">chiudere</string>
-    <string name="szRatingMessage">Se vi piace questa app, vi preghiamo di prendere un momento per valutarla. Grazie per il vostro sostegno!</string>
     <string name="szIntroduction">Introduzione</string>
     <string name="szRemindMe">Ricordami</string>
     <string name="szRateNow">Valuta</string>
@@ -23,4 +22,24 @@
     <string name="szOn">acceso</string>
     <string name="szOff">spento</string>
     <string name="szShowMe">Fammi vedere</string>
+
+    <string name="szLikeThisAppTitle">Vi piace questa app?</string>
+    <string name="szLikeThisAppMessage">Come è la vostra esperienza finora? Vi piace questa app?</string>
+    <string name="szRatingMessage">Se vi piace questa app, vi preghiamo di prendere un momento per valutarla. Grazie per il vostro sostegno!</string>
+    <string name="szAskFeedbackMessage">Siamo molto dispiaciuti! Volete inviare feedback in modo da migliorare l\'app?</string>
+    <string name="szLikeThisAppNo">Non tanto</string>
+
+    <string name="szDisclaimer2">Byte Sculptor Software detiene i diritti su questa applicazione e le modifiche
+        possono essere apportate in qualsiasi momento.
+        Questa app è stata testata manualmente e automaticamente su dispositivi reali ed emulati per bug, errori e stabilità.
+        Tuttavia, ciò non significa che il software sia completamente privo di errori.
+        Il sistema operativo Android viene utilizzato su molti cellulari diversi ed è spesso fortemente modificato
+        dal produttore del cellulare. È possibile che questa app non funziona come previsto su tali cellulari.
+        \n\nCon l\'utilizzo di questo software, l\'utente accetta che Byte Sculptor Software non è responsabile per
+        eventuali danni arrecati al cellulare. Utilizzate questa app completamente a vostro rischio.
+        \nSe riscontrete problemi, facete saperci inviando un\'email con i dettagli sul problema, il modello del
+        cellulare e la versione di Android. Grazie!</string>
+
+    <string name="errorOnOpenPrivacyPolicyLink">Errore. Controlla l\'app store per informazioni sulla privacy.</string>
+
 </resources>

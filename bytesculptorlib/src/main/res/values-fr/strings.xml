@@ -23,4 +23,21 @@
     <string name="szOn">allumé</string>
     <string name="szShowMe">Montre moi</string>
     <string name="szClose">fermer</string>
+
+    <string name="szLikeThisAppTitle">Vous appréciez cette application?</string>
+    <string name="szLikeThisAppMessage">Quelle est votre expérience jusqu\'à présent? Aimez-vous cette application?</string>
+    <string name="szAskFeedbackMessage">Nous sommes vraiment désolés! Souhaitez-vous envoyer des commentaires afin que nous améliorions l\'application?</string>
+    <string name="szLikeThisAppNo">Pas tellement</string>
+
+    <string name="szDisclaimer2">Byte Sculptor Software détient les droits sur cette application et des modifications peuvent être apportées à tout moment.
+        Cette application a été testée manuellement et automatiquement sur des appareils réels et émulés pour les bugs, les erreurs et la stabilité.
+        Cependant, cela ne signifie pas que le logiciel est totalement exempt d\'erreurs.
+        Le système Android est utilisé sur de nombreux appareils différents et est souvent fortement modifié par le fabricant
+        de l\'appareil. Il est possible que cette application ne fonctionne pas comme prévu sur ces appareils.
+        \n\nEn utilisant ce logiciel, vous acceptez que Byte Sculptor Software ne soit pas responsable des dommages
+        causés à votre appareil. Vous utilisez cette application à vos risques et périls.
+        \nSi vous rencontrez des problèmes, veuillez nous en informer en envoyant un e-mail avec des détails sur
+        le problème, le modèle de votre appareil et la version d\'Android. Je vous remercie!</string>
+
+    <string name="errorOnOpenPrivacyPolicyLink">Erreur. Consultez l\'App Store pour la politique de confidentialité.</string>
 </resources>
