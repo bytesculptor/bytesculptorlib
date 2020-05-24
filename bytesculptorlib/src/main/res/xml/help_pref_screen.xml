@@ -28,6 +28,10 @@
             app:useSimpleSummaryProvider="true" />
 
         <Preference
+            app:key="HELP_PREF_PRIVACY_POLICY"
+            app:title="Privacy Policy" />
+
+        <Preference
             app:key="HELP_PREF_DISCLAIMER"
             app:title="Disclaimer" />
 
@@ -36,8 +40,9 @@
             app:title="@string/open_source_licenses" />
 
         <Preference
-            app:key="HELP_PREF_PRIVACY_POLICY"
-            app:title="Privacy Policy" />
+            app:icon="@drawable/ic_share"
+            app:key="HELP_PREF_SHARE_APP"
+            app:title="Share this app" />
 
         <Preference
             app:icon="@drawable/ic_android"

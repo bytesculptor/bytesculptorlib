@@ -90,4 +90,25 @@ public class ExternalLinksHelper {
         }
     }
 
+
+    /**
+     * Opens a "share" to send the app store link
+     *
+     * @param context
+     * @param packageName
+     * @param appName
+     */
+    public static void shareApp(Context context, String packageName, String appName) {
+        try {
+            Intent shareIntent = new Intent(Intent.ACTION_SEND);
+            shareIntent.setType("text/plain");
+            shareIntent.putExtra(Intent.EXTRA_SUBJECT, appName);
+            String shareMessage = "https://play.google.com/store/apps/details?id=" + packageName + "\n\n";
+            shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
+            context.startActivity(Intent.createChooser(shareIntent, ""));
+        } catch (Exception e) {
+            //e.toString();
+        }
+    }
+
 }
