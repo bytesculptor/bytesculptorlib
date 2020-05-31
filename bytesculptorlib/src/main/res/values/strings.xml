@@ -47,6 +47,7 @@
     <string name="szDeleted" translatable="false">deleted</string>
     <string name="szMerge" translatable="false">Merge</string>
     <string name="szAll" translatable="false">all</string>
+    <string name="share_app">Share this app</string>
 
 
     <!-- files -->
@@ -71,7 +72,7 @@
     <string name="szThreeMonth" translatable="false">3 month</string>
     <string name="szSixMonth" translatable="false">6 month</string>
     <string name="szOneYear" translatable="false">1 year</string>
-    <string name="btLater" translatable="false">later</string>
+    <string name="szLater">later</string>
     <string name="btNext" translatable="false">next</string>
 
 

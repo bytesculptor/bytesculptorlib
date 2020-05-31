@@ -42,7 +42,7 @@
         <Preference
             app:icon="@drawable/ic_share"
             app:key="HELP_PREF_SHARE_APP"
-            app:title="Share this app" />
+            app:title="@string/share_app" />
 
         <Preference
             app:icon="@drawable/ic_android"

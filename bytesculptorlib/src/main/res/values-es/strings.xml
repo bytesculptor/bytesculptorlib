@@ -40,4 +40,6 @@
         modelo de su dispositivo y la versión de Android. ¡Gracias!</string>
 
     <string name="errorOnOpenPrivacyPolicyLink">Error. Consulte la tienda de aplicaciones para conocer la política de privacidad.</string>
+    <string name="szLater">más tarde</string>
+    <string name="share_app">Comparte esta aplicación</string>
 </resources>

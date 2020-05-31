@@ -40,4 +40,6 @@
         le problème, le modèle de votre appareil et la version d\'Android. Je vous remercie!</string>
 
     <string name="errorOnOpenPrivacyPolicyLink">Erreur. Consultez l\'App Store pour la politique de confidentialité.</string>
+    <string name="szLater">plus tard</string>
+    <string name="share_app">Partagez cette app</string>
 </resources>

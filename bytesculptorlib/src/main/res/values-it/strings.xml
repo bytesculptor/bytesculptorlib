@@ -41,5 +41,7 @@
         cellulare e la versione di Android. Grazie!</string>
 
     <string name="errorOnOpenPrivacyPolicyLink">Errore. Controlla l\'app store per informazioni sulla privacy.</string>
+    <string name="szLater">più tardi</string>
+    <string name="share_app">Condividi questa app</string>
 
 </resources>
