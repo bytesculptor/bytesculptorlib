@@ -40,5 +40,7 @@
     <string name="errorOnOpenPrivacyPolicyLink">Fehler. Besuchen Sie den App Store für die Datenschutzerklärung.</string>
     <string name="szLater">später</string>
     <string name="share_app">App teilen</string>
+    <string name="szCancel">abbrechen</string>
+    <string name="szWelcome" translatable="false">Willkommen!</string>
 
 </resources>

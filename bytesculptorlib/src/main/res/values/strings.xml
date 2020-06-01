@@ -18,7 +18,7 @@
     <string name="szHistory">History</string>
     <string name="szTts" translatable="false">Text-to-speech</string>
     <string name="btTtsOptions" translatable="false">Text-to-speech settings</string>
-    <string name="szWelcome" translatable="false">Welcome!</string>
+    <string name="szWelcome">Welcome!</string>
     <string name="szGood">good</string>
 
 
@@ -35,7 +35,7 @@
 
     <!-- actions -->
     <string name="szClose">close</string>
-    <string name="szCancel" translatable="false">Cancel</string>
+    <string name="szCancel">Cancel</string>
     <string name="szAbort" translatable="false">abort</string>
     <string name="szSave" translatable="false">Save</string>
     <string name="szSaved" translatable="false">Saved</string>

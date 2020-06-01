@@ -42,4 +42,6 @@
     <string name="errorOnOpenPrivacyPolicyLink">Error. Consulte la tienda de aplicaciones para conocer la política de privacidad.</string>
     <string name="szLater">más tarde</string>
     <string name="share_app">Comparte esta aplicación</string>
+    <string name="szCancel">cancelar</string>
+    <string name="szWelcome">¡Bienvenidos!</string>
 </resources>

@@ -5,7 +5,7 @@
     <string name="szNo">no</string>
     <string name="szGood">buono</string>
     <string name="szNotifications">Notificazioni</string>
-    <string name="szRateThisApp">Valuta questa app</string>
+    <string name="szRateThisApp">Valuta quest\'app</string>
     <string name="szAbout">Informazioni</string>
     <string name="szContact">Contatto</string>
     <string name="szAppVersion">Versione</string>
@@ -42,6 +42,8 @@
 
     <string name="errorOnOpenPrivacyPolicyLink">Errore. Controlla l\'app store per informazioni sulla privacy.</string>
     <string name="szLater">più tardi</string>
-    <string name="share_app">Condividi questa app</string>
+    <string name="share_app">Condividi quest\'app</string>
+    <string name="szCancel">annulla</string>
+    <string name="szWelcome">Benvenuto!</string>
 
 </resources>
