@@ -20,7 +20,7 @@ public class DisclaimerFragment extends Fragment {
         TextView feedback = view.findViewById(R.id.tvFeedbackMailLink);
         if (feedback != null) {
             feedback.setOnClickListener(v -> {
-                ExternalLinksHelper.sendFeedbackMail(requireContext(), "My Speech App");
+                ExternalLinksHelper.sendFeedbackMail(requireContext(), "App");
             });
         }
         return view.getRootView();
