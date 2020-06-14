@@ -11,6 +11,8 @@
     <string name="dev_email" translatable="false">bytesculptor@gmail.com</string>
     <string name="szSettings">Settings</string>
     <string name="szNotifications">Notifications</string>
+    <string name="notif_setting">Notification settings</string>
+    <string name="set_notif_settings">Set visibility, sound and vibration</string>
     <string name="szStatistics" translatable="false">Statistics</string>
     <string name="szInfo" translatable="false">info</string>
     <string name="szSearch" translatable="false">Search</string>

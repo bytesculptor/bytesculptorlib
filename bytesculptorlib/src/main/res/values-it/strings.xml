@@ -45,5 +45,7 @@
     <string name="share_app">Condividi quest\'app</string>
     <string name="szCancel">annulla</string>
     <string name="szWelcome">Benvenuto!</string>
+    <string name="notif_setting">Impostazioni notificazioni</string>
+    <string name="set_notif_settings">Imposta visibilità, suono e vibrazione</string>
 
 </resources>
