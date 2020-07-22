@@ -44,5 +44,8 @@
     <string name="szWelcome" translatable="false">Willkommen!</string>
     <string name="notif_setting">Benachrichtigungs-Einstellungen</string>
     <string name="set_notif_settings">Sichtbarkeit, Ton und Vibration</string>
+    <string name="szContactIntro">Häufig versuchen mich Benutzer über die Bewertungen im Google Play Store zu kontaktieren.
+        Leider ist die Anzahl Zeichen für eine Antwort stark begrenzt. Für bessere Unterstützung Schreiben Sie bitte an:</string>
+
 
 </resources>

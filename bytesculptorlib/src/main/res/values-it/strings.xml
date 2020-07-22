@@ -47,5 +47,8 @@
     <string name="szWelcome">Benvenuto!</string>
     <string name="notif_setting">Impostazioni notificazioni</string>
     <string name="set_notif_settings">Imposta visibilità, suono e vibrazione</string>
+    <string name="szContactIntro">Molti utenti provano a contattarmi tramite il sistema di valuta dell\'app nel Google Play Store.
+        Sfortunatamente, lo spazio per una risposta è limitato da Google. Per un migliore aiuto, si prega di scrivere a:</string>
+
 
 </resources>

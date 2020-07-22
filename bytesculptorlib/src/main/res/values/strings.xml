@@ -99,6 +99,8 @@
     <string name="szMoreApps" translatable="false">Byte Sculptor Apps</string>
     <string name="szContact">Contact</string>
     <string name="szFaq" translatable="false">FAQ</string>
+    <string name="szContactIntro">Many users try to contact me through the app\'s rating system in Google Play Store. Unfortunately, the
+        developer\'s answer space is limited by Google. For better support, please write to:</string>
     <string name="open_source_licenses" translatable="false">Open source licenses</string>
 
     <string name="szDisclaimer1"></string>
