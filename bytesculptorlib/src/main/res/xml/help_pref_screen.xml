@@ -18,6 +18,11 @@
             app:key="HELP_PREF_RATE_APP"
             app:title="@string/szRateThisApp" />
 
+        <Preference
+            app:icon="@drawable/ic_share"
+            app:key="HELP_PREF_SHARE_APP"
+            app:title="@string/share_app" />
+
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/szAbout">
@@ -38,11 +43,6 @@
         <Preference
             app:key="HELP_PREF_OPEN_SOURCE"
             app:title="@string/open_source_licenses" />
-
-        <Preference
-            app:icon="@drawable/ic_share"
-            app:key="HELP_PREF_SHARE_APP"
-            app:title="@string/share_app" />
 
         <Preference
             app:icon="@drawable/ic_android"
