@@ -49,6 +49,10 @@
     <string name="set_notif_settings">Imposta visibilità, suono e vibrazione</string>
     <string name="szContactIntro">Molti utenti provano a contattarmi tramite il sistema di valuta dell\'app nel Google Play Store.
         Sfortunatamente, lo spazio per una risposta è limitato da Google. Per un migliore aiuto, si prega di scrivere a:</string>
+    <string name="app_theme">Tema</string>
+    <string name="app_theme_light">Tenue</string>
+    <string name="app_theme_dark">Scuro</string>
+    <string name="app_theme_system">Predefinite di sistema</string>
 
 
 </resources>

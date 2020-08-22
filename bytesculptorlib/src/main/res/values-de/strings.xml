@@ -46,6 +46,10 @@
     <string name="set_notif_settings">Sichtbarkeit, Ton und Vibration</string>
     <string name="szContactIntro">Häufig versuchen mich Benutzer über die Bewertungen im Google Play Store zu kontaktieren.
         Leider ist die Anzahl Zeichen für eine Antwort stark begrenzt. Für bessere Unterstützung Schreiben Sie bitte an:</string>
+    <string name="app_theme">Design</string>
+    <string name="app_theme_light">Hell</string>
+    <string name="app_theme_dark">Dunkel</string>
+    <string name="app_theme_system">System Einstellung</string>
 
 
 </resources>

@@ -47,5 +47,9 @@
     <string name="notif_setting">Configuraciones notificaciones</string>
     <string name="set_notif_settings">Establecer visibilidad, sonido y vibración.</string>
     <string name="szContactIntro">Muchos usuarios intentan ponerse en contacto conmigo a través del sistema de valoración de la aplicación en Google Play Store. Desafortunadamente, el espacio de respuesta del desarrollador está limitado por Google. Para un mejor soporte, escriba a:</string>
+    <string name="app_theme">Tema</string>
+    <string name="app_theme_light">Claro</string>
+    <string name="app_theme_dark">Oscuro</string>
+    <string name="app_theme_system">Predeterminado del sistema</string>
 
 </resources>
