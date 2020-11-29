@@ -19,9 +19,7 @@ public class DisclaimerFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_disclaimer, container, false);
         TextView feedback = view.findViewById(R.id.tvFeedbackMailLink);
         if (feedback != null) {
-            feedback.setOnClickListener(v -> {
-                ExternalLinksHelper.sendFeedbackMail(requireContext(), "App");
-            });
+            feedback.setOnClickListener(v -> ExternalLinksHelper.sendFeedbackMail(requireContext(), "App"));
         }
         return view.getRootView();
     }

@@ -12,11 +12,11 @@ import com.bytesculptor.applib.R
 
 object AppRating {
 
-    private val LIKE_QUESTION_DONE = "like_question"
-    private val GAVE_FEEDBACK = "gave_feedback"
-    private val NEVER_ASK = "never_ask"
-    private val COUNTER = "launch_counter"
-    private val FIRST_LAUNCH = "first_launch_timestamp"
+    private const val LIKE_QUESTION_DONE = "like_question"
+    private const val GAVE_FEEDBACK = "gave_feedback"
+    private const val NEVER_ASK = "never_ask"
+    private const val COUNTER = "launch_counter"
+    private const val FIRST_LAUNCH = "first_launch_timestamp"
     private var appName: String? = null
     private var fragmentManager: FragmentManager? = null
     private var context: Context? = null
@@ -37,8 +37,8 @@ object AppRating {
         }
 
         // increment counter
-        val launch_count = 1 + prefs.getLong(COUNTER, 0)
-        sharedPrefsEditor!!.putLong(COUNTER, launch_count)
+        val launchCount = 1 + prefs.getLong(COUNTER, 0)
+        sharedPrefsEditor!!.putLong(COUNTER, launchCount)
 
         // update timestamp if 0
         var firstLaunchTimestamp = prefs.getLong(FIRST_LAUNCH, 0)
@@ -49,7 +49,7 @@ object AppRating {
         sharedPrefsEditor!!.apply()
 
         // prompt dialog if limit reached
-        if (launch_count >= startsUntilPrompt &&
+        if (launchCount >= startsUntilPrompt &&
                 System.currentTimeMillis() >= firstLaunchTimestamp + daysUntilPrompt * 24 * 3600 * 1000) {
             if (prefs.getBoolean(LIKE_QUESTION_DONE, false)) {
                 val rate = DialogQuestionRateApp()
