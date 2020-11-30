@@ -53,6 +53,7 @@
     <string name="app_theme_light">Tenue</string>
     <string name="app_theme_dark">Scuro</string>
     <string name="app_theme_system">Predefinite di sistema</string>
+    <string name="szSave">Salvare</string>
 
 
 </resources>

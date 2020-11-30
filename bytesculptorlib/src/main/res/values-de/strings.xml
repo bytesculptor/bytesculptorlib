@@ -50,6 +50,7 @@
     <string name="app_theme_light">Hell</string>
     <string name="app_theme_dark">Dunkel</string>
     <string name="app_theme_system">System Einstellung</string>
+    <string name="szSave">Speichern</string>
 
 
 </resources>

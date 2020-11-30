@@ -43,7 +43,7 @@
     <string name="szClose">close</string>
     <string name="szCancel">Cancel</string>
     <string name="szAbort" translatable="false">abort</string>
-    <string name="szSave" translatable="false">Save</string>
+    <string name="szSave">Save</string>
     <string name="szSaved" translatable="false">Saved</string>
     <string name="szEdit" translatable="false">edit</string>
     <string name="szPlay" translatable="false">Play</string>

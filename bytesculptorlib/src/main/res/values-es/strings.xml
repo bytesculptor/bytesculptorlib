@@ -51,5 +51,6 @@
     <string name="app_theme_light">Claro</string>
     <string name="app_theme_dark">Oscuro</string>
     <string name="app_theme_system">Predeterminado del sistema</string>
+    <string name="szSave">Salvar</string>
 
 </resources>
