@@ -49,7 +49,7 @@
     <string name="szPlay" translatable="false">Play</string>
     <string name="szRename" translatable="false">rename</string>
     <string name="szCreate" translatable="false">Create</string>
-    <string name="szDelete" translatable="false">delete</string>
+    <string name="szDelete">delete</string>
     <string name="szDeleted" translatable="false">deleted</string>
     <string name="szMerge" translatable="false">Merge</string>
     <string name="szAll" translatable="false">all</string>
@@ -134,6 +134,8 @@
     <string name="navigation_drawer_open" translatable="false">open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">close navigation drawer</string>
     <string name="errorOnOpenPrivacyPolicyLink">Error. Check the app store for the privacy policy.</string>
+    <string name="szDisclaimer">Disclaimer</string>
+    <string name="szPrivacyPolicy">Privacy Policy</string>
 
 
 </resources>

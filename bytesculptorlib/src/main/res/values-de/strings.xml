@@ -41,7 +41,7 @@
     <string name="szLater">später</string>
     <string name="share_app">App teilen</string>
     <string name="szCancel">abbrechen</string>
-    <string name="szWelcome" translatable="false">Willkommen!</string>
+    <string name="szWelcome">Willkommen!</string>
     <string name="notif_setting">Benachrichtigungs-Einstellungen</string>
     <string name="set_notif_settings">Sichtbarkeit, Ton und Vibration</string>
     <string name="szContactIntro">Häufig versuchen mich Benutzer über die Bewertungen im Google Play Store zu kontaktieren.
@@ -51,6 +51,9 @@
     <string name="app_theme_dark">Dunkel</string>
     <string name="app_theme_system">System Einstellung</string>
     <string name="szSave">Speichern</string>
+    <string name="szDisclaimer">Haftungsausschluss</string>
+    <string name="szPrivacyPolicy">Datenschutz-Bestimmungen</string>
+    <string name="szDelete">Löschen</string>
 
 
 </resources>

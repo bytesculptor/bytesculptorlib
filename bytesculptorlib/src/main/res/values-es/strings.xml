@@ -52,5 +52,8 @@
     <string name="app_theme_dark">Oscuro</string>
     <string name="app_theme_system">Predeterminado del sistema</string>
     <string name="szSave">Salvar</string>
+    <string name="szDisclaimer">Descargo de responsabilidad</string>
+    <string name="szPrivacyPolicy">Política de privacidad</string>
+    <string name="szDelete">Eliminar</string>
 
 </resources>

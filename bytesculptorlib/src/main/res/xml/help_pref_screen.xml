@@ -34,11 +34,11 @@
 
         <Preference
             app:key="HELP_PREF_PRIVACY_POLICY"
-            app:title="Privacy Policy" />
+            app:title="@string/szPrivacyPolicy" />
 
         <Preference
             app:key="HELP_PREF_DISCLAIMER"
-            app:title="Disclaimer" />
+            app:title="@string/szDisclaimer" />
 
         <Preference
             app:key="HELP_PREF_OPEN_SOURCE"
