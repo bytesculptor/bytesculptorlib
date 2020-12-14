@@ -10,13 +10,8 @@ import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
 import com.bytesculptor.applib.R
 
-object AppRating {
+class AppRating {
 
-    private const val LIKE_QUESTION_DONE = "like_question"
-    private const val GAVE_FEEDBACK = "gave_feedback"
-    private const val NEVER_ASK = "never_ask"
-    private const val COUNTER = "launch_counter"
-    private const val FIRST_LAUNCH = "first_launch_timestamp"
     private var appName: String? = null
     private var fragmentManager: FragmentManager? = null
     private var context: Context? = null
@@ -90,7 +85,7 @@ object AppRating {
         }
     }
 
-    class DialogQuestionLike : DialogFragment() {
+    inner class DialogQuestionLike : DialogFragment() {
         override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
             val builder = AlertDialog.Builder(requireActivity())
             builder.setTitle(getString(R.string.szLikeThisAppTitle))
@@ -110,7 +105,7 @@ object AppRating {
     }
 
 
-    class DialogQuestionRateApp : DialogFragment() {
+    inner class DialogQuestionRateApp : DialogFragment() {
         override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
             val builder = AlertDialog.Builder(requireActivity())
             builder.setTitle(getString(R.string.szRateThisApp))
@@ -119,18 +114,18 @@ object AppRating {
                 setNeverAsk()
                 ExternalLinksHelper.goToAppStore(requireContext(), requireContext().packageName)
             }
-            builder.setNegativeButton(getString(R.string.szNoThanks)) { dialog: DialogInterface?, which: Int -> setNeverAsk() }
-            builder.setNeutralButton(getString(R.string.szRemindMe)) { dialog: DialogInterface?, which: Int -> resetCounterAndTimestamp() }
+            builder.setNegativeButton(getString(R.string.szNoThanks)) { dialog: DialogInterface?, _: Int -> setNeverAsk() }
+            builder.setNeutralButton(getString(R.string.szRemindMe)) { dialog: DialogInterface?, _: Int -> resetCounterAndTimestamp() }
             return builder.create()
         }
     }
 
-    class DialogQuestionGiveFeedback : DialogFragment() {
+    inner class DialogQuestionGiveFeedback : DialogFragment() {
         override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
             val builder = AlertDialog.Builder(requireActivity())
             builder.setTitle(getString(R.string.szFeedback) + "?")
             builder.setMessage(getString(R.string.szAskFeedbackMessage))
-            builder.setPositiveButton(getString(R.string.szYes)) { dialog: DialogInterface?, which: Int ->
+            builder.setPositiveButton(getString(R.string.szYes)) { _: DialogInterface?, _: Int ->
                 setGaveFeedback()
                 resetCounterAndTimestamp()
                 ExternalLinksHelper.sendFeedbackMail(context, appName)
@@ -138,5 +133,13 @@ object AppRating {
             builder.setNegativeButton(getString(R.string.szNoThanks)) { dialog: DialogInterface?, which: Int -> setNeverAsk() }
             return builder.create()
         }
+    }
+
+    companion object {
+        private const val LIKE_QUESTION_DONE = "like_question"
+        private const val GAVE_FEEDBACK = "gave_feedback"
+        private const val COUNTER = "launch_counter"
+        private const val FIRST_LAUNCH = "first_launch_timestamp"
+        private const val NEVER_ASK = "never_ask"
     }
 }
