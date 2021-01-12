@@ -95,12 +95,12 @@ object AppRating {
             val builder = AlertDialog.Builder(requireActivity())
             builder.setTitle(getString(R.string.szLikeThisAppTitle))
             builder.setMessage(getString(R.string.szLikeThisAppMessage))
-            builder.setPositiveButton(getString(R.string.szYes)) { dialog: DialogInterface?, which: Int ->
+            builder.setPositiveButton(getString(R.string.szYes)) { _: DialogInterface?, _: Int ->
                 setLikeQuestionAsked()
                 val rate = DialogQuestionRateApp()
                 rate.show(parentFragmentManager, "likeDialog")
             }
-            builder.setNegativeButton(getString(R.string.szLikeThisAppNo)) { dialog: DialogInterface?, which: Int ->
+            builder.setNegativeButton(getString(R.string.szLikeThisAppNo)) { _: DialogInterface?, _: Int ->
                 setLikeQuestionAsked()
                 val feedback = DialogQuestionGiveFeedback()
                 feedback.show(parentFragmentManager, "feedbackDialog")
@@ -115,12 +115,12 @@ object AppRating {
             val builder = AlertDialog.Builder(requireActivity())
             builder.setTitle(getString(R.string.szRateThisApp))
             builder.setMessage(getString(R.string.szRatingMessage))
-            builder.setPositiveButton(getString(R.string.szRateNow)) { dialog: DialogInterface?, which: Int ->
+            builder.setPositiveButton(getString(R.string.szRateNow)) { _: DialogInterface?, _: Int ->
                 setNeverAsk()
                 ExternalLinksHelper.goToAppStore(requireContext(), requireContext().packageName)
             }
-            builder.setNegativeButton(getString(R.string.szNoThanks)) { dialog: DialogInterface?, which: Int -> setNeverAsk() }
-            builder.setNeutralButton(getString(R.string.szRemindMe)) { dialog: DialogInterface?, which: Int -> resetCounterAndTimestamp() }
+            builder.setNegativeButton(getString(R.string.szNoThanks)) { _: DialogInterface?, _: Int -> setNeverAsk() }
+            builder.setNeutralButton(getString(R.string.szRemindMe)) { _: DialogInterface?, _: Int -> resetCounterAndTimestamp() }
             return builder.create()
         }
     }
@@ -130,12 +130,12 @@ object AppRating {
             val builder = AlertDialog.Builder(requireActivity())
             builder.setTitle(getString(R.string.szFeedback) + "?")
             builder.setMessage(getString(R.string.szAskFeedbackMessage))
-            builder.setPositiveButton(getString(R.string.szYes)) { dialog: DialogInterface?, which: Int ->
+            builder.setPositiveButton(getString(R.string.szYes)) { _: DialogInterface?, _: Int ->
                 setGaveFeedback()
                 resetCounterAndTimestamp()
                 ExternalLinksHelper.sendFeedbackMail(context, appName)
             }
-            builder.setNegativeButton(getString(R.string.szNoThanks)) { dialog: DialogInterface?, which: Int -> setNeverAsk() }
+            builder.setNegativeButton(getString(R.string.szNoThanks)) { _: DialogInterface?, _: Int -> setNeverAsk() }
             return builder.create()
         }
     }
