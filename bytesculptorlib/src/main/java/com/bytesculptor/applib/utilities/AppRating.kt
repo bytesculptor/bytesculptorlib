@@ -139,12 +139,4 @@ object AppRating {
             return builder.create()
         }
     }
-
-    companion object {
-        private const val LIKE_QUESTION_DONE = "like_question"
-        private const val GAVE_FEEDBACK = "gave_feedback"
-        private const val COUNTER = "launch_counter"
-        private const val FIRST_LAUNCH = "first_launch_timestamp"
-        private const val NEVER_ASK = "never_ask"
-    }
 }
