@@ -130,7 +130,7 @@ object AppRating {
             val builder = AlertDialog.Builder(requireActivity())
             builder.setTitle(getString(R.string.szFeedback) + "?")
             builder.setMessage(getString(R.string.szAskFeedbackMessage))
-            builder.setPositiveButton(getString(R.string.szYes)) { dialog: DialogInterface?, which: Int ->
+            builder.setPositiveButton(getString(R.string.szYes)) { _: DialogInterface?, _: Int ->
                 setGaveFeedback()
                 resetCounterAndTimestamp()
                 ExternalLinksHelper.sendFeedbackMail(context, appName)
@@ -138,5 +138,13 @@ object AppRating {
             builder.setNegativeButton(getString(R.string.szNoThanks)) { _: DialogInterface?, _: Int -> setNeverAsk() }
             return builder.create()
         }
+    }
+
+    companion object {
+        private const val LIKE_QUESTION_DONE = "like_question"
+        private const val GAVE_FEEDBACK = "gave_feedback"
+        private const val COUNTER = "launch_counter"
+        private const val FIRST_LAUNCH = "first_launch_timestamp"
+        private const val NEVER_ASK = "never_ask"
     }
 }
