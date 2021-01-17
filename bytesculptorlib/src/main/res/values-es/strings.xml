@@ -55,5 +55,6 @@
     <string name="szDisclaimer">Descargo de responsabilidad</string>
     <string name="szPrivacyPolicy">Política de privacidad</string>
     <string name="szDelete">Eliminar</string>
+    <string name="szVisitInPlayStore">Aplicación en Play Store</string>
 
 </resources>

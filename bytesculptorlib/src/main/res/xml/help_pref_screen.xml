@@ -14,9 +14,9 @@
             app:title="@string/szFeedback" />
 
         <Preference
-            app:icon="@drawable/ic_rate_review"
-            app:key="HELP_PREF_RATE_APP"
-            app:title="@string/szRateThisApp" />
+            app:icon="@drawable/ic_google_play"
+            app:key="HELP_PREF_VISIT_IN_PLAY_STORE"
+            app:title="@string/szVisitInPlayStore" />
 
         <Preference
             app:icon="@drawable/ic_share"
