@@ -14,7 +14,7 @@
             app:title="@string/szFeedback" />
 
         <Preference
-            app:icon="@drawable/ic_google_play"
+            app:icon="@drawable/ic_android"
             app:key="HELP_PREF_VISIT_IN_PLAY_STORE"
             app:title="@string/szVisitInPlayStore" />
 
