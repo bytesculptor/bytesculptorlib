@@ -1,3 +1,14 @@
+<!--
+  ~ Copyright (c) 2017 - 2021  Byte Sculptor Software  - All Rights Reserved
+  ~
+  ~ All information contained herein is and remains the property of Byte Sculptor Software.
+  ~ Unauthorized copying of this file, via any medium, is strictly prohibited unless prior
+  ~ written permission is obtained from Byte Sculptor Software.
+  ~
+  ~ Romeo Rondinelli - bytesculptor@gmail.com
+  ~
+  -->
+
 <androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -13,7 +24,7 @@
             app:key="HELP_PREF_SEND_FEEDBACK"
             app:title="@string/szFeedback" />
 
-        <Preference
+        <!--Preference
             app:icon="@drawable/ic_android"
             app:key="HELP_PREF_VISIT_IN_PLAY_STORE"
             app:title="@string/szVisitInPlayStore" />
@@ -21,7 +32,7 @@
         <Preference
             app:icon="@drawable/ic_share"
             app:key="HELP_PREF_SHARE_APP"
-            app:title="@string/share_app" />
+            app:title="@string/share_app" /-->
 
     </PreferenceCategory>
 
@@ -44,10 +55,10 @@
             app:key="HELP_PREF_OPEN_SOURCE"
             app:title="@string/open_source_licenses" />
 
-        <Preference
+        <!--Preference
             app:icon="@drawable/ic_android"
             app:key="HELP_PREF_MORE_APPS"
-            app:title="@string/szMoreApps" />
+            app:title="@string/szMoreApps" /-->
 
     </PreferenceCategory>
 </androidx.preference.PreferenceScreen>
