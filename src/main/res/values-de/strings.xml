@@ -56,5 +56,13 @@
     <string name="szDelete">Löschen</string>
     <string name="szVisitInPlayStore">App im Play Store</string>
 
+    <string name="Mon">Mo</string>
+    <string name="Tue">Di</string>
+    <string name="Wed">Mi</string>
+    <string name="Thu">Do</string>
+    <string name="Fri">Fr</string>
+    <string name="Sat">Sa</string>
+    <string name="Sun">So</string>
+
 
 </resources>

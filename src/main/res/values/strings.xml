@@ -138,5 +138,13 @@
     <string name="szPrivacyPolicy">Privacy Policy</string>
     <string name="szVisitInPlayStore">App in the Play Store</string>
 
+    <string name="Mon">Mon</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="Thu">Thu</string>
+    <string name="Fri">Fri</string>
+    <string name="Sat">Sat</string>
+    <string name="Sun">Sun</string>
+
 
 </resources>
