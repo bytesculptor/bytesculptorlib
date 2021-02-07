@@ -1,0 +1,20 @@
+<!--
+  ~ Copyright (c) 2017 - 2021  Byte Sculptor Software  - All Rights Reserved
+  ~
+  ~ All information contained herein is and remains the property of Byte Sculptor Software.
+  ~ Unauthorized copying of this file, via any medium, is strictly prohibited unless prior
+  ~ written permission is obtained from Byte Sculptor Software.
+  ~
+  ~ Romeo Rondinelli - bytesculptor@gmail.com
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:fillColor="?android:attr/textColorPrimary"
+        android:pathData="M10,20v-6h4v6h5v-8h3L12,3 2,12h3v8z" />
+</vector>
