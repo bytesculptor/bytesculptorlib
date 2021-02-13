@@ -66,7 +66,7 @@
     <string name="szPrivacyPolicy">Datenschutz-Bestimmungen</string>
     <string name="szDelete">Löschen</string>
     <string name="szVisitInPlayStore">App im Play Store</string>
-
+    <string name="notAvailable">Auf Ihrem System nicht verfügbar</string>
     <string name="Mon">Mo</string>
     <string name="Tue">Di</string>
     <string name="Wed">Mi</string>
@@ -74,6 +74,5 @@
     <string name="Fri">Fr</string>
     <string name="Sat">Sa</string>
     <string name="Sun">So</string>
-
 
 </resources>

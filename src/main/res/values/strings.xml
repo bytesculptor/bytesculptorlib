@@ -91,6 +91,13 @@
     <string name="szOneYear" translatable="false">1 year</string>
     <string name="szLater">later</string>
     <string name="btNext" translatable="false">next</string>
+    <string name="Mon">Mon</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="Thu">Thu</string>
+    <string name="Fri">Fri</string>
+    <string name="Sat">Sat</string>
+    <string name="Sun">Sun</string>
 
 
     <!-- app rating -->
@@ -117,6 +124,7 @@
     <string name="szContactIntro">Many users try to contact me through the app\'s rating system in Google Play Store. Unfortunately, the
         developer\'s answer space is limited by Google. For better support, please write to:</string>
     <string name="open_source_licenses" translatable="false">Open source licenses</string>
+    <string name="notAvailable">Not available on your system</string>
 
     <string name="szDisclaimer1"></string>
     <string name="szDisclaimer2">
@@ -148,14 +156,5 @@
     <string name="szDisclaimer">Disclaimer</string>
     <string name="szPrivacyPolicy">Privacy Policy</string>
     <string name="szVisitInPlayStore">App in the Play Store</string>
-
-    <string name="Mon">Mon</string>
-    <string name="Tue">Tue</string>
-    <string name="Wed">Wed</string>
-    <string name="Thu">Thu</string>
-    <string name="Fri">Fri</string>
-    <string name="Sat">Sat</string>
-    <string name="Sun">Sun</string>
-
 
 </resources>

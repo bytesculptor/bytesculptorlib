@@ -69,6 +69,14 @@
     <string name="szPrivacyPolicy">Politica sulla riservatezza</string>
     <string name="szDelete">Elimina</string>
     <string name="szVisitInPlayStore">App nel Play Store</string>
+    <string name="notAvailable">Non disponibile sul vostro sistema</string>
+    <string name="Mon">Lun</string>
+    <string name="Tue">Mar</string>
+    <string name="Wed">Mer</string>
+    <string name="Thu">Gio</string>
+    <string name="Fri">Ven</string>
+    <string name="Sat">Sab</string>
+    <string name="Sun">Dom</string>
 
 
 </resources>
