@@ -22,8 +22,8 @@
   ~ SOFTWARE.
   -->
 
-<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory>
 
@@ -68,10 +68,21 @@
             app:key="HELP_PREF_OPEN_SOURCE"
             app:title="@string/open_source_licenses" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Byte Sculptor Software">
+
         <Preference
-            app:icon="@drawable/ic_android"
+            app:icon="@drawable/ic_coffee"
+            app:key="HELP_PREF_BUY_COFFEE"
+            app:title="Buy me a coffee" />
+
+        <Preference
             app:key="HELP_PREF_MORE_APPS"
             app:title="@string/szMoreApps" />
 
     </PreferenceCategory>
+
+    <PreferenceCategory></PreferenceCategory>
+
 </androidx.preference.PreferenceScreen>

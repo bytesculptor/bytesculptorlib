@@ -169,5 +169,6 @@
     <string name="szDisclaimer">Disclaimer</string>
     <string name="szPrivacyPolicy">Privacy Policy</string>
     <string name="szVisitInPlayStore">App in the Play Store</string>
+    <string name="errorOpeningExternalLink" translatable="false">Error on opening external link</string>
 
 </resources>
