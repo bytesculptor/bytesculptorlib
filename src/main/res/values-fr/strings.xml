@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ MIT License
+  ~ Copyright (c) 2017 - 2021  Byte Sculptor Software  - All Rights Reserved
   ~
-  ~ Copyright (c) 2017 - 2021  Byte Sculptor Software
+  ~ All information contained herein is and remains the property of Byte Sculptor Software.
+  ~ Unauthorized copying of this file, via any medium, is strictly prohibited unless prior
+  ~ written permission is obtained from Byte Sculptor Software.
   ~
-  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
-  ~ of this software and associated documentation files (the "Software"), to deal
-  ~ in the Software without restriction, including without limitation the rights
-  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  ~ copies of the Software, and to permit persons to whom the Software is
-  ~ furnished to do so, subject to the following conditions:
+  ~ Romeo Rondinelli - bytesculptor@gmail.com
   ~
-  ~ The above copyright notice and this permission notice shall be included in all
-  ~ copies or substantial portions of the Software.
-  ~
-  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  ~ SOFTWARE.
   -->
 
 <resources>
@@ -79,7 +66,7 @@
     <string name="szDisclaimer">Avertissement</string>
     <string name="szPrivacyPolicy">Politique de confidentialité</string>
     <string name="szDelete">Supprimer</string>
-    <string name="szVisitInPlayStore">App en PlayStore</string>
+    <string name="szVisitInPlayStore">App en Play Store</string>
     <string name="notAvailable">Non disponible sur votre système</string>
     <string name="Mon">Lu</string>
     <string name="Tue">Ma</string>
