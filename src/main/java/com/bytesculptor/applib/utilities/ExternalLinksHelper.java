@@ -100,7 +100,7 @@ public class ExternalLinksHelper {
      * @param context
      */
     public static void showMoreByteSculptorApps(Context context) {
-        Uri uri = Uri.parse("market://apps/developer?id=Byte+Sculptor+Software");
+        Uri uri = Uri.parse("market://apps/dev?id=4913602895703268011");
         Intent goToAppStore = new Intent(Intent.ACTION_VIEW, uri);
         goToAppStore.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
                 Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
@@ -110,7 +110,7 @@ public class ExternalLinksHelper {
         } catch (
                 ActivityNotFoundException e) {
             context.startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("http://play.google.com/store/apps/developer?id=Byte+Sculptor+Software")));
+                    Uri.parse("https://play.google.com/store/apps/dev?id=4913602895703268011")));
         }
     }
 
