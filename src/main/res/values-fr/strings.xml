@@ -75,5 +75,6 @@
     <string name="Fri">Ve</string>
     <string name="Sat">Sa</string>
     <string name="Sun">Di</string>
+    <string name="szWebsite">site Internet</string>
 
 </resources>
