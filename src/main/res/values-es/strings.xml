@@ -77,5 +77,8 @@
     <string name="szWebsite">sitio web</string>
     <string name="szLicensesHeader">Esta aplicación utiliza actualmente el siguiente software de código abierto:</string>
     <string name="more_licenses">más licencias</string>
+    <string name="szMoreApps">Byte Sculptor Apps</string>
+    <string name="szFaq">FAQ</string>
+    <string name="open_source_licenses">Licencias de código abierto</string>
 
 </resources>

@@ -41,7 +41,7 @@
 
     <!-- confirmation -->
     <string name="szGotIt" translatable="false">OK!</string>
-    <string name="szOk" translatable="false">OK</string>
+    <string name="szOk">OK</string>
     <string name="szYes">yes</string>
     <string name="szNo">no</string>
     <string name="szNoCancel">No, cancel</string>
@@ -120,7 +120,7 @@
     <string name="szAppVersion">App Version</string>
     <string name="szMoreApps">Byte Sculptor Apps</string>
     <string name="szContact">Contact</string>
-    <string name="szFaq" translatable="false">FAQ</string>
+    <string name="szFaq">FAQ</string>
     <string name="szContactIntro">Many users try to contact me through the app\'s rating system in Google Play Store. Unfortunately, the
         developer\'s answer space is limited by Google. For better support, please write to:</string>
     <string name="open_source_licenses">Open source licenses</string>
@@ -156,7 +156,7 @@
     <string name="szDisclaimer">Disclaimer</string>
     <string name="szPrivacyPolicy">Privacy Policy</string>
     <string name="szVisitInPlayStore">App in the Play Store</string>
-    <string name="errorOpeningExternalLink" translatable="false">Error on opening external link</string>
+    <string name="errorOpeningExternalLink">Error on opening external link</string>
     <string name="szWebsite">Website</string>
     <string name="more_licenses">more licenses</string>
 

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021  Byte Sculptor Software  - All Rights Reserved
+  ~
+  ~ All information contained herein is and remains the property of Byte Sculptor Software.
+  ~ Unauthorized copying of this file, via any medium, is strictly prohibited unless prior
+  ~ written permission is obtained from Byte Sculptor Software.
+  ~
+  ~ Romeo Rondinelli - bytesculptor@gmail.com
+  ~
+  -->
+
+<resources>
+
+    <!-- general terms -->
+    <string name="szSettings">Настройки</string>
+    <string name="szNotifications">Известия</string>
+    <string name="notif_setting">Настройки на известия</string>
+    <string name="set_notif_settings">Избор на видимост, звук и вибрация</string>
+    <string name="szHint">Намек</string>
+    <string name="szHistory">История</string>
+    <string name="szTts" translatable="false">Текст към реч</string>
+    <string name="btTtsOptions" translatable="false">Настройки на текст към реч</string>
+    <string name="szWelcome">Добре дошли!</string>
+    <string name="szGood">Добре</string>
+    <string name="app_theme">Тема</string>
+    <string name="app_theme_light">Светла</string>
+    <string name="app_theme_dark">Тъмна</string>
+    <string name="app_theme_system">Като системната настройка</string>
+
+
+    <!-- confirmation -->
+    <string name="szOk">Добре</string>
+    <string name="szYes">Да</string>
+    <string name="szNo">Не</string>
+    <string name="szNoCancel">Не, отмени</string>
+    <string name="szOff">Изключено</string>
+    <string name="szOn">Включено</string>
+    <string name="szShowMe">Покажи ми</string>
+
+
+    <!-- actions -->
+    <string name="szClose">Затвори</string>
+    <string name="szCancel">Отмени</string>
+    <string name="szAbort">Стоп</string>
+    <string name="szSave">Запази</string>
+    <string name="szSaved" translatable="false">Запазено</string>
+    <string name="szEdit" translatable="false">Редактирай</string>
+    <string name="szPlay" translatable="false">Пусни</string>
+    <string name="szRename" translatable="false">Преименувай</string>
+    <string name="szCreate" translatable="false">Създай</string>
+    <string name="szDelete">Изтрий</string>
+    <string name="szDeleted" translatable="false">Изтрито</string>
+    <string name="szMerge" translatable="false">Сливане</string>
+    <string name="szAll" translatable="false">Всички</string>
+    <string name="share_app">Сподели това приложение</string>
+
+
+    <!-- files -->
+    <string name="szFileName" translatable="false">Име на файла</string>
+    <string name="szOpenFile" translatable="false">Отвори файла</string>
+    <string name="szSaveFile" translatable="false">Затвори файла</string>
+    <string name="szImp" translatable="false">Импорт</string>
+    <string name="szExp" translatable="false">Експорт</string>
+    <string name="szDeleteAllData" translatable="false">Да, изтрий всички данни</string>
+
+
+    <!-- sorting -->
+    <string name="szSort" translatable="false">Сортирай</string>
+    <string name="AZ" translatable="false">А..Я</string>
+    <string name="ZA" translatable="false">Я..А</string>
+
+
+    <!-- time -->
+    <string name="szOneWeek" translatable="false">1 Седмица</string>
+    <string name="szToday" translatable="false">Днес</string>
+    <string name="szOneMonth" translatable="false">1 Месец</string>
+    <string name="szThreeMonth" translatable="false">3 Месеца</string>
+    <string name="szSixMonth" translatable="false">6 Месеца</string>
+    <string name="szOneYear" translatable="false">1 Година</string>
+    <string name="szLater">По-късно</string>
+    <string name="btNext" translatable="false">Следващо</string>
+    <string name="Mon">Пон</string>
+    <string name="Tue">Вто</string>
+    <string name="Wed">Сря</string>
+    <string name="Thu">Четв</string>
+    <string name="Fri">Пет</string>
+    <string name="Sat">Съб</string>
+    <string name="Sun">Нед</string>
+
+
+    <!-- app rating -->
+    <string name="szRateThisApp">Оценете това приложение</string>
+    <string name="szLikeThisAppTitle">Харесва ли Ви това приложение?</string>
+    <string name="szLikeThisAppMessage">Какво е Вашето впечатление до сега? Харесва ли Ви това приложение?</string>
+    <string name="szAskFeedbackMessage">Много съжаляваме! Бихте ли изпратили коментар, за да подобрим приложението?</string>
+    <string name="szLikeThisAppNo">Не особено</string>
+    <string name="szRatingMessage">Бихте ли дали оценка на приложението? Много Ви благодарим за подкрепата!</string>
+    <string name="szRateNow">Оцени сега</string>
+    <string name="szRemindMe">Напомни ми</string>
+    <string name="szNoThanks">Не, благодаря</string>
+
+
+    <!-- help -->
+    <string name="szHelp">Помощ</string>
+    <string name="szIntroduction">Увод</string>
+    <string name="szAbout">За нас</string>
+    <string name="szFeedback">Изпрати коментар</string>
+    <string name="szAppVersion">Версия на приложението</string>
+    <string name="szMoreApps" translatable="false">Byte Sculptor Apps</string>
+    <string name="szContact">Обратна връзка</string>
+    <string name="szFaq" translatable="false">Често Задавани Въпроси</string>
+    <string name="szContactIntro">Много потребители се опитват да се свържат с нас през системата за оценяване на Google Play магазина. За съжаление, там има лимит на броя букви, с които ние можем да Ви отговорим. За по-добра обратна връзка, моля пишете ни на:</string>
+    <string name="open_source_licenses">Лицензи с отворен код</string>
+    <string name="notAvailable">Не е достъпно във Вашата система</string>
+
+    <string name="szDisclaimer1"></string>
+    <string name="szDisclaimer2">
+        Byte Sculptor Software притежава правата за това приложение, като промени по него могат да бъдат направени по всяко време. Това приложение е тествано ръчно и автоматично на истински и симулирани устройства за неизправности, грешки и стабилност. Но това не означава, че софтуера е напълно без грешки. Операционната система Android е използвана на много и различни устройства, които са често силно модифицирани от производителя. Възможно е да има устройства, при които това приложение няма да работи както се очаква.
+        \n\nИзползвайки този софтуер, Вие се съгласявате, че Byte Sculptor Software не носи отговорност за повреди на Вашето устройство. Вие използвате това приложение на собствена отговорност.
+        \nАко имате каквито и да е проблеми, моля, обърнете се към нас! Изпратете имейл с детайли относно проблема, модела на Вашето устройство и Android версията. Благодарим Ви!
+    </string>
+    <string name="szDisclaimer3"></string>
+
+
+    <!-- licenses -->
+    <string name="szLicensesHeader" translatable="false">Това приложение в момента използва следния софтуер с отворен код:</string>
+
+
+    <!-- navigation drawer -->
+    <string name="errorOnOpenPrivacyPolicyLink">Грешка! Моля, проверете за поверителната политика в Google Play магазина.</string>
+    <string name="szDisclaimer">Отказ от отговорност</string>
+    <string name="szPrivacyPolicy">Поверителност</string>
+    <string name="szVisitInPlayStore">Към приложението в Google Play магазина</string>
+    <string name="errorOpeningExternalLink" translatable="false">Грешка при отварянето на външната препратка</string>
+    <string name="szWebsite">Уебсайт</string>
+
+</resources>
