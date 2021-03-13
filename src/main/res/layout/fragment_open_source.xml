@@ -24,7 +24,6 @@
   -->
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingStart="16dp"
@@ -112,11 +111,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
-            android:text="more licenses"
+            android:text="@string/more_licenses"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="?android:attr/textColorPrimary"
-            android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+            android:textSize="24sp" />
 
     </LinearLayout>
+
 </ScrollView>

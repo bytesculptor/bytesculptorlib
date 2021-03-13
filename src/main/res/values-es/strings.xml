@@ -75,5 +75,7 @@
     <string name="Sat">Sab</string>
     <string name="Sun">Dom</string>
     <string name="szWebsite">sitio web</string>
+    <string name="szLicensesHeader">Esta aplicación utiliza actualmente el siguiente software de código abierto:</string>
+    <string name="more_licenses">más licencias</string>
 
 </resources>

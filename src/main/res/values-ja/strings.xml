@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+  <string name="szCancel">キャンセル</string>
+  <string name="szSave">セーブ</string>
+  <string name="szHelp">ヘルプ</string>
+  <string name="szContact">連絡先</string>
+  <string name="szContactIntro">多くのユーザーが、GooglePlay ストアのアプリの評価システムを介して私に連絡しようとします。残念ながら、開発者の回答スペースは Google によって制限されています。より良いサポートのために、以下に書いてください：</string>
+  <string name="szAbout">当社について</string>
+  <string name="szFeedback">フィードバックを送信する</string>
+  <string name="szVisitInPlayStore">Play ストアのアプリ</string>
+  <string name="share_app">このアプリを共有する</string>
+  <string name="szAppVersion">アプリバージョン</string>
+  <string name="open_source_licenses">オープンソースライセンス</string>
+  <string name="szLicensesHeader">このアプリは現在、次のオープンソースソフトウェアを使用しています。</string>
+  <string name="more_licenses">より多くのライセンス</string>
+  <string name="szPrivacyPolicy">個人情報保護方針</string>
+  <string name="szDisclaimer">免責事項</string>
+  <string name="szDisclaimer2">Byte Sculptor Software はこのアプリケーションの権利を所有しており、いつでも変更を加えることができます。このアプリは、バグ、エラー、安定性について、実際のデバイスとエミュレートされたデバイスで手動および自動でテストされています。ただし、これはソフトウェアにエラーがまったくないことを意味するものではありません。 Android OS はさまざまなデバイスで使用されており、多くの場合、デバイスの製造元によって大幅に変更されています。このようなデバイスでは、このアプリが期待どおりに実行されない可能性があります。このソフトウェアを使用することにより、Byte SculptorSoftware がデバイスに加えられたいかなる損害についても責任を負わないことに同意するものとします。あなたは完全にあなた自身の責任でこのアプリを使用します。問題が発生した場合は、問題の詳細、デバイスモデル、Android のバージョンをメールでお知らせください。ありがとうございました！</string>
+  <string name="szSettings">設定</string>
+  <string name="szWebsite">ウェブサイト</string>
+  <string name="szMoreApps">Byte Sculptor アプリ</string>
+
+</resources>

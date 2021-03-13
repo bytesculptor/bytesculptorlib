@@ -77,6 +77,10 @@
     <string name="Sat">Sab</string>
     <string name="Sun">Dom</string>
     <string name="szWebsite">sito web</string>
+    <string name="szLicensesHeader">Questa app attualmente utilizza le seguente software open source:</string>
+    <string name="open_source_licenses">Open source licenses</string>
+    <string name="more_licenses">più licenze</string>
+    <string name="szMoreApps">Byte Sculptor Apps</string>
 
 
 </resources>

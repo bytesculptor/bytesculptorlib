@@ -75,5 +75,9 @@
     <string name="Sat">Sa</string>
     <string name="Sun">Di</string>
     <string name="szWebsite">site Internet</string>
+    <string name="szLicensesHeader">Cette application utilise actuellement le logiciel open source suivant:</string>
+    <string name="open_source_licenses">Open source licenses</string>
+    <string name="more_licenses">plus de licences</string>
+    <string name="szMoreApps">Byte Sculptor Apps</string>
 
 </resources>
