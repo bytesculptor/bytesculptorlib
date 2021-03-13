@@ -106,9 +106,9 @@
     <string name="szAbout">За нас</string>
     <string name="szFeedback">Изпрати коментар</string>
     <string name="szAppVersion">Версия на приложението</string>
-    <string name="szMoreApps" translatable="false">Byte Sculptor Apps</string>
+    <string name="szMoreApps">Byte Sculptor Apps</string>
     <string name="szContact">Обратна връзка</string>
-    <string name="szFaq" translatable="false">Често Задавани Въпроси</string>
+    <string name="szFaq">Често Задавани Въпроси</string>
     <string name="szContactIntro">Много потребители се опитват да се свържат с нас през системата за оценяване на Google Play магазина. За съжаление, там има лимит на броя букви, с които ние можем да Ви отговорим. За по-добра обратна връзка, моля пишете ни на:</string>
     <string name="open_source_licenses">Лицензи с отворен код</string>
     <string name="notAvailable">Не е достъпно във Вашата система</string>
@@ -123,7 +123,7 @@
 
 
     <!-- licenses -->
-    <string name="szLicensesHeader" translatable="false">Това приложение в момента използва следния софтуер с отворен код:</string>
+    <string name="szLicensesHeader">Това приложение в момента използва следния софтуер с отворен код:</string>
 
 
     <!-- navigation drawer -->
@@ -131,7 +131,8 @@
     <string name="szDisclaimer">Отказ от отговорност</string>
     <string name="szPrivacyPolicy">Поверителност</string>
     <string name="szVisitInPlayStore">Към приложението в Google Play магазина</string>
-    <string name="errorOpeningExternalLink" translatable="false">Грешка при отварянето на външната препратка</string>
+    <string name="errorOpeningExternalLink">Грешка при отварянето на външната препратка</string>
     <string name="szWebsite">Уебсайт</string>
+    <string name="more_licenses">повече лицензи</string>
 
 </resources>

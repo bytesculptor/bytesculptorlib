@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2017 - 2021  Byte Sculptor Software  - All Rights Reserved
+  ~
+  ~ All information contained herein is and remains the property of Byte Sculptor Software.
+  ~ Unauthorized copying of this file, via any medium, is strictly prohibited unless prior
+  ~ written permission is obtained from Byte Sculptor Software.
+  ~
+  ~ Romeo Rondinelli - bytesculptor@gmail.com
+  ~
+  -->
+
+<resources>
+    <!-- confirmation -->
+    <string name="szOk">ОК</string>
+    <string name="szYes">Да</string>
+    <string name="szNo">Нет</string>
+
+    <!-- actions -->
+    <string name="szCancel">Oтменять</string>
+    <string name="szSave">Сохранить</string>
+    <string name="share_app">Поделиться этим приложением</string>
+
+
+    <!-- app rating -->
+    <string name="szRateThisApp">Оцените это приложение</string>
+    <string name="szLikeThisAppTitle">Нравится это приложение?</string>
+    <string name="szLikeThisAppMessage">Каковы ваши впечатления на данный момент? Вам нравится это приложение?</string>
+    <string name="szAskFeedbackMessage">Нам очень жаль! Хотели бы вы отправить отзыв, чтобы мы улучшили приложение?</string>
+    <string name="szLikeThisAppNo">Не так много</string>
+    <string name="szRatingMessage">Не могли бы вы дать оценку этому приложению? Спасибо за поддержку!</string>
+    <string name="szRateNow">Оценить сейчас</string>
+    <string name="szRemindMe">Напомни мне позже</string>
+    <string name="szNoThanks">Нет, спасибо</string>
+
+
+    <!-- help -->
+    <string name="szHelp">Помощь</string>
+    <string name="szAbout">О нас</string>
+    <string name="szFeedback">Отправить отзыв</string>
+    <string name="szAppVersion">Версия приложения</string>
+    <string name="szContact">Для контакта</string>
+    <string name="szFaq">Часто задаваемые вопросы</string>
+    <string name="szContactIntro">Многие пользователи пытаются связаться с нами через рейтинговую систему приложения в Google Play Store. К сожалению, пространство для ответов разработчика ограничено Google. Для получения дополнительной поддержки, пожалуйста, напишите по адресу:</string>
+    <string name="open_source_licenses">Лицензии с открытым исходным кодом</string>
+
+
+    <!-- licenses -->
+    <string name="szLicensesHeader">Это приложение в настоящее время использует следующее программное обеспечение с открытым исходным кодом:</string>
+
+    <!-- navigation drawer -->
+    <string name="errorOnOpenPrivacyPolicyLink">Ошибка. Ознакомьтесь с политикой конфиденциальности в магазине приложений.</string>
+    <string name="szDisclaimer">Отказ от ответственности</string>
+    <string name="szPrivacyPolicy">Конфиденциальность</string>
+    <string name="szVisitInPlayStore">Приложение в Play Store</string>
+    <string name="szWebsite">Веб-сайт</string>
+    <string name="more_licenses">больше лицензий</string>
+
+</resources>
