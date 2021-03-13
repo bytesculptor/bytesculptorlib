@@ -23,5 +23,6 @@
   <string name="szFaq">FAQ</string>
   <string name="errorOnOpenPrivacyPolicyLink">Error. Check the app store for the privacy policy.</string>
   <string name="szRateThisApp">このアプリを評価する</string>
+  <string name="szOk">はい</string>
 
 </resources>

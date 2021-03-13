@@ -40,7 +40,6 @@
 
 
     <!-- confirmation -->
-    <string name="szGotIt" translatable="false">OK!</string>
     <string name="szOk">OK</string>
     <string name="szYes">yes</string>
     <string name="szNo">no</string>
